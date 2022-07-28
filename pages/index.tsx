@@ -19,10 +19,10 @@ const Home: NextPage = () => {
       <NavBar/>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hey, I&apos; m <span className={styles.ian}>Ian</span>.
+          Hey, I&apos;m <span className={styles.ian}>Ian</span>.
         </h1>
         <p className={styles.description}>
-          I&apos; m a Computer Science student at the <span className={styles.uiuc}>University of 
+          I&apos;m a Computer Science student at the <span className={styles.uiuc}>University of 
           Illinois at Urbana-Champaign</span>.
         </p>
         <div className={styles.socials}>
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
           hope to work on similar projects involving autonomous robots.
           <br />
           <br />
-          Currently I&apos; m exploring and working on my web development skills with projects, such as this one,
+          Currently I&apos;m exploring and working on my web development skills with projects, such as this one,
           or solving my Rubik&apos;s Cube whilst listening to a mix of K-Pop and Indie music.
         </p>
       </section>
