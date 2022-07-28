@@ -1,0 +1,39 @@
+.bar {
+    border-bottom: 1px solid #000000;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: right; */
+    padding-right: 20px;
+    z-index: 9999;
+    background-color: #fff;
+}
+
+.bookmarks {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    justify-content: right !important;
+    align-items: center;
+    text-align: right !important;
+}
+
+.bookmark {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.name {
+    background: #fff;
+    font-weight: 400;
+    font-size: 28px;
+    align-items: center !important;
+    text-align: left !important;
+    padding-left: 20px;
+}
+
+.name:hover {
+    transform: translateY(-5px);
+}
