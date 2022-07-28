@@ -106,7 +106,7 @@ const Home: NextPage = () => {
               </div>
               <div className={styles.cardBox}>
                 <p className={styles.cardDetails}>
-                  I mean it counts doesn&apos;t it? Anyway it&apos;s just meta. Built using <strong>JavaScript</strong>,  
+                  I mean it counts doesn&apos;t it? Built using <strong>JavaScript</strong>,  
                   {" "}<strong>Next.js</strong>, and <strong>Typescript</strong>.
                 </p>
               </div>
