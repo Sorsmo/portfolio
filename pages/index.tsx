@@ -19,10 +19,10 @@ const Home: NextPage = () => {
       <NavBar/>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hey, I'm <span className={styles.ian}>Ian</span>.
+          Hey, I&apos; m <span className={styles.ian}>Ian</span>.
         </h1>
         <p className={styles.description}>
-          I'm a Computer Science student at the <span className={styles.uiuc}>University of 
+          I&apos; m a Computer Science student at the <span className={styles.uiuc}>University of 
           Illinois at Urbana-Champaign</span>.
         </p>
         <div className={styles.socials}>
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
       <section className={styles.section}>
         <h1 className={styles.header}>About Me</h1>
         <p className={styles.details}>
-          I'm Ian Sornson and I am currently a Freshman at the University of Illinois at Urbana-Champaign
+          I&apos;m Ian Sornson and I am currently a Freshman at the University of Illinois at Urbana-Champaign
           majoring in Computer Science. Born and raised in the suburbs of Chicago I have a passion 
           for problem solving and an interest in pairing computer science with hardware.
           <br/>
@@ -58,8 +58,8 @@ const Home: NextPage = () => {
           hope to work on similar projects involving autonomous robots.
           <br />
           <br />
-          Currently I'm exploring and working on my web development skills with projects, such as this one,
-          or solving my Rubik's Cube whilst listening to a mix of K-Pop and Indie music.
+          Currently I&apos; m exploring and working on my web development skills with projects, such as this one,
+          or solving my Rubik&apos;s Cube whilst listening to a mix of K-Pop and Indie music.
         </p>
       </section>
 
