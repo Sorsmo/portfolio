@@ -84,6 +84,7 @@
 .header {
   font-size: 48px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .section {
@@ -91,6 +92,7 @@
   padding-right: 30%;
   display: flex;
   flex-direction: column;
+  
 }
 
 .details {
@@ -100,7 +102,7 @@
 }
 
 .divider {
-  height: 50px;
+  height: 60px;
 }
 
 .grid {
@@ -228,4 +230,9 @@
 .social:active {
   box-shadow: none;
   transform: translateY(5px);
+}
+
+.social:hover {
+  transform: perspective(200px) translateZ(15px);
+  transition: transform 250ms ease-in-out;
 }

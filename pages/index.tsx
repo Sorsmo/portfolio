@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           Hey, I&apos;m <span className={styles.ian}>Ian</span>.
         </h1>
         <p className={styles.description}>
-          I&apos;m a Computer Science student at the <span className={styles.uiuc}>University of 
+          Computer Science student at the <span className={styles.uiuc}>University of 
           Illinois at Urbana-Champaign</span>.
         </p>
         <div className={styles.socials}>
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
       <section className={styles.section}>
         <h1 className={styles.header}>About Me</h1>
         <p className={styles.details}>
-          I&apos;m Ian Sornson and I am currently a Freshman at the University of Illinois at Urbana-Champaign
+          My name is Ian Sornson and I am currently a Freshman at the University of Illinois at Urbana-Champaign
           majoring in Computer Science. Born and raised in the suburbs of Chicago I have a passion 
           for problem solving and an interest in pairing computer science with hardware.
           <br/>
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
           hope to work on similar projects involving autonomous robots.
           <br />
           <br />
-          Currently I&apos;m exploring and working on my web development skills with projects, such as this one,
+          Currently I am exploring and working on my web development skills with projects, such as this one,
           or solving my Rubik&apos;s Cube whilst listening to a mix of K-Pop and Indie music.
         </p>
       </section>
@@ -93,24 +93,25 @@ const Home: NextPage = () => {
                 <p className={styles.cardDetails}>
                   Amber is guessing game I created with a highschool friend based on 
                   your own spotify stats. Built using <strong>JavaScript</strong>, <strong>React.js</strong>, 
-                  <strong>Axios</strong>, and the <strong>Spotify SDK</strong>.
+                  {" "}<strong>Axios</strong>, and the <strong>Spotify SDK</strong>.
                 </p>
               </div>
             </a>
           </Link>
-          {/* <Link href="/">
+          <Link href="https://iansornson.vercel.app">
             <a className={styles.card} target="_blank">
               <div className={styles.cardHeader}>
-                <h2 className={styles.projectName}>Portfolio</h2>
-                <Image className={styles.cardImage} src="" alt="" width={300} height={200} />
+                <h2 className={styles.projectName}>My Portfolio</h2>
+                <Image className={styles.cardImage} src="/port2.png" alt="port" width={300} height={200} />
               </div>
               <div className={styles.cardBox}>
                 <p className={styles.cardDetails}>
-                  Meta. Built with JavaScript, Next.js, and Typescript.
+                  I mean it counts doesn&apos;t it? Anyway it&apos;s just meta. Built using <strong>JavaScript</strong>,  
+                  {" "}<strong>Next.js</strong>, and <strong>Typescript</strong>.
                 </p>
               </div>
             </a>
-          </Link> */}
+          </Link>
 
           {/* <a className={styles.card} target="_blank">
             <div className={styles.cardHeader}>
