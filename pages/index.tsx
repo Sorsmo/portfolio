@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <NavBar/>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hey, I&apos;m <span className={styles.ian}>Ian</span>.
+          Ian Sornson
         </h1>
         <p className={styles.description}>
           Computer Science student at the <span className={styles.uiuc}>University of 
@@ -44,22 +44,20 @@ const Home: NextPage = () => {
       <section className={styles.section}>
         <h1 className={styles.header}>About Me</h1>
         <p className={styles.details}>
-          My name is Ian Sornson and I am currently a Freshman at the University of Illinois at Urbana-Champaign
-          majoring in Computer Science. Born and raised in the suburbs of Chicago I have a passion 
-          for problem solving and an interest in pairing computer science with hardware.
+          I am currently a student at the University of Illinois at Urbana-Champaign
+          pursuing a B.S. in Computer Science with interests in <strong>artificial intelligence</strong> and <strong>machine learning</strong>
+          , <strong>autonomous robots</strong>, and general <strong>software engineering</strong>.
           <br/>
           <br/>
-          My intereting in programming was first piqued in middle school when our social studies class
-          participated in Hour of Code for a week. When I was Sophomore in highschool I was able to take 
-          AP Computer Science A which further cemeneted my love for coding.
           Throughout highschool I particpated in a robotics competition called FIRST Tech Challenge (FTC).
           The autonomous portion of the competition was always the coolest part as I got to see teams 
-          utilize concepts like dead wheel odometry to navigate the field programmatically. Ever since I 
-          hope to work on similar projects involving autonomous robots.
-          <br />
-          <br />
+          utilize computer vision with the help of depth cameras and real time robot localization and path finding 
+          using various forms of odometry to smoothly navigate the field. Ever since I have hoped to work on similar 
+          projects involving autonomous robots in the future.
+          <br/>
+          <br/>
           Currently I am exploring and working on my web development skills with projects, such as this one,
-          or solving my Rubik&apos;s Cube whilst listening to a mix of K-Pop and Indie music.
+          and taking courses learning to program autonomous robotics.
         </p>
       </section>
 
@@ -75,8 +73,8 @@ const Home: NextPage = () => {
               </div>
               <div className={styles.cardBox}>
                 <p className={styles.cardDetails}>
-                  Headlines is web game I created with a highschool friend where you guess 
-                  the publication date of a New York Times headline.
+                  Headlines is web game where you guess 
+                  the publication date of New York Times headlines to test just how well read you are.
                   Built using <strong>JavaScript</strong>, <strong>Next.js</strong>, <strong>Typescript</strong>, and 
                   the <strong>New York Times API</strong>. 
                 </p>
@@ -91,8 +89,8 @@ const Home: NextPage = () => {
               </div>
               <div className={styles.cardBox}>
                 <p className={styles.cardDetails}>
-                  Amber is guessing game I created with a highschool friend based on 
-                  your own spotify stats. Built using <strong>JavaScript</strong>, <strong>React.js</strong>, 
+                  Amber is a music oriented guessing game fueled by 
+                  your own Spotify stats. How well do you know yourself? Built using <strong>JavaScript</strong>, <strong>React.js</strong>, 
                   {" "}<strong>Axios</strong>, and the <strong>Spotify SDK</strong>.
                 </p>
               </div>
@@ -136,7 +134,7 @@ const Home: NextPage = () => {
       <footer>
         <span className={styles.footer}>
           <a href='mailto:iansornson55@gmail.com'>
-            Email me!
+            Email me! (iansornson55@gmail.com or gis3@illinois.edu)
           </a>
         </span>
       </footer>
