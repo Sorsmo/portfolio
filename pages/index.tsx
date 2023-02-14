@@ -45,8 +45,8 @@ const Home: NextPage = () => {
         <h1 className={styles.header}>About Me</h1>
         <p className={styles.details}>
           I am currently a student at the University of Illinois at Urbana-Champaign
-          pursuing a B.S. in Computer Science with interests in <strong>artificial intelligence</strong> and <strong>machine learning</strong>
-          , <strong>autonomous robots</strong>, and general <strong>software engineering</strong>.
+          pursuing a B.S. in Computer Science with interests in <strong>artificial intelligence</strong>, <strong>machine learning</strong>
+          , and <strong>autonomous robots</strong>.
           <br/>
           <br/>
           Throughout highschool I particpated in a robotics competition called FIRST Tech Challenge (FTC).
@@ -134,7 +134,7 @@ const Home: NextPage = () => {
       <footer>
         <span className={styles.footer}>
           <a href='mailto:iansornson55@gmail.com'>
-            Email me! (iansornson55@gmail.com or gis3@illinois.edu)
+            Email me! (iansornson55@gmail.com)
           </a>
         </span>
       </footer>
