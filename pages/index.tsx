@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <NavBar/>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hey, I&apos;m <span className={styles.ian}>Ian</span>.
+          Ian Sornson
         </h1>
         <p className={styles.description}>
           Computer Science student at the <span className={styles.uiuc}>University of 
@@ -53,7 +53,9 @@ const Home: NextPage = () => {
           have hoped to work on similar projects involving autonomous robots.
           <br />
           <br />
-          Currently I am exploring my interests through passion projects and coursework such as Introduction to Robotics.
+          Currently I am exploring my interests through passion projects and coursework. I am also a Software Engineer 
+          at the Gies Disruption Lab at UIUC. This past semester I worked with Yield Protocol, a blockchain startup to
+          develop a Web3 based chatbot to explore the possibility of chatbots being substitute search engines. 
         </p>
       </section>
 
@@ -85,6 +87,9 @@ const Home: NextPage = () => {
                   Headlines is web game I created with a highschool friend where you guess 
                   the publication date of a New York Times headline.
                   Created using <strong>JavaScript</strong>, <strong>Next.js</strong>, <strong>Typescript</strong>, and 
+                  Headlines is web game where you guess 
+                  the publication date of New York Times headlines to test just how well read you are.
+                  Built using <strong>JavaScript</strong>, <strong>Next.js</strong>, <strong>Typescript</strong>, and 
                   the <strong>New York Times API</strong>. 
                 </p>
               </div>
@@ -98,8 +103,8 @@ const Home: NextPage = () => {
               </div>
               <div className={styles.cardBox}>
                 <p className={styles.cardDetails}>
-                  Amber is guessing game I created with a highschool friend based on 
-                  your own spotify stats. Built using <strong>JavaScript</strong>, <strong>React.js</strong>, 
+                  Amber is a music oriented guessing game fueled by 
+                  your own Spotify stats. How well do you know yourself? Built using <strong>JavaScript</strong>, <strong>React.js</strong>, 
                   {" "}<strong>Axios</strong>, and the <strong>Spotify SDK</strong>.
                 </p>
               </div>
@@ -119,18 +124,6 @@ const Home: NextPage = () => {
               </div>
             </a>
           </Link>
-          
-          {/* <a className={styles.card} target="_blank">
-            <div className={styles.cardHeader}>
-              <h2 className={styles.projectName}>Coming soon...</h2>
-              <Image className={styles.cardImage} src="" alt="" width={300} height={200} />
-            </div>
-            <div className={styles.cardBox}>
-              <p className={styles.cardDetails}>
-                Stay tuned!
-              </p>
-            </div>
-          </a> */}
         </div>
       </section>
 
@@ -143,7 +136,7 @@ const Home: NextPage = () => {
       <footer>
         <span className={styles.footer}>
           <a href='mailto:iansornson55@gmail.com'>
-            Email me!
+            Email me! (iansornson55@gmail.com)
           </a>
         </span>
       </footer>
