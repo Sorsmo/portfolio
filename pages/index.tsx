@@ -66,7 +66,7 @@ const Home: NextPage = () => {
           <Link href="https://github.com/Sorsmo/chess-engine">
             <a className={styles.card} target="_blank">
               <div className={styles.cardHeader}>
-                <h2 className={styles.projectName}>"YanNepocho" Chess Engine</h2>
+                <h2 className={styles.projectName}>&quot;YanNepocho&quot; Chess Engine</h2>
                 <Image className={styles.cardImage} src="/yan.png" alt="port" width={300} height={200} />
               </div>
               <div className={styles.cardBox}>
