@@ -42,7 +42,7 @@ const Home: NextPage = () => {
       <section className={styles.section}>
         <h1 className={styles.header}>About Me</h1>
         <p className={styles.details}>
-          I'm Ian, a Sophomore at the University of Illinois at Urbana-Champaign
+          I&apos;m Ian, a Sophomore at the University of Illinois at Urbana-Champaign
           majoring in Computer Science. I am passionate about <strong>artificial intelligence</strong> and <strong>machine learning</strong>, 
           <strong> computer vision</strong>, and <strong>autonomous robots</strong>. 
           <br/>
