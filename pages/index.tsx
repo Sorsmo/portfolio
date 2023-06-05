@@ -37,29 +37,23 @@ const Home: NextPage = () => {
             </a>
           </Link> */}
         </div>
-        
-
       </main>
       <div className={styles.divider} id='about'></div>
       <section className={styles.section}>
         <h1 className={styles.header}>About Me</h1>
         <p className={styles.details}>
-          My name is Ian Sornson and I am currently a Freshman at the University of Illinois at Urbana-Champaign
-          majoring in Computer Science. Born and raised in the suburbs of Chicago I have a passion 
-          for problem solving and an interest in pairing computer science with hardware.
+          I'm Ian, a Sophomore at the University of Illinois at Urbana-Champaign
+          majoring in Computer Science. I am passionate about <strong>artificial intelligence</strong> and <strong>machine learning</strong>, 
+          <strong> computer vision</strong>, and <strong>autonomous robots</strong>. 
           <br/>
           <br/>
-          My intereting in programming was first piqued in middle school when our social studies class
-          participated in Hour of Code for a week. When I was Sophomore in highschool I was able to take 
-          AP Computer Science A which further cemeneted my love for coding.
-          Throughout highschool I particpated in a robotics competition called FIRST Tech Challenge (FTC).
+          Throughout highschool I particpated in a robotics competition called FIRST Tech Challenge.
           The autonomous portion of the competition was always the coolest part as I got to see teams 
           utilize concepts like dead wheel odometry to navigate the field programmatically. Ever since I 
-          hope to work on similar projects involving autonomous robots.
+          have hoped to work on similar projects involving autonomous robots.
           <br />
           <br />
-          Currently I am exploring and working on my web development skills with projects, such as this one,
-          or solving my Rubik&apos;s Cube whilst listening to a mix of K-Pop and Indie music.
+          Currently I am exploring my interests through passion projects and coursework such as Introduction to Robotics.
         </p>
       </section>
 
@@ -67,6 +61,19 @@ const Home: NextPage = () => {
       <section className={styles.section}>
         <h1 className={styles.header}>Projects</h1>
         <div className={styles.grid}>
+          <Link href="https://github.com/Sorsmo/chess-engine">
+            <a className={styles.card} target="_blank">
+              <div className={styles.cardHeader}>
+                <h2 className={styles.projectName}>"YanNepocho" Chess Engine</h2>
+                <Image className={styles.cardImage} src="/yan.png" alt="port" width={300} height={200} />
+              </div>
+              <div className={styles.cardBox}>
+                <p className={styles.cardDetails}>
+                  A (work in progress) chess engine integrated with the <strong>LiChess API</strong> for online play developed using <strong>Python</strong>.
+                </p>
+              </div>
+            </a>
+          </Link> 
           <Link href="https://headlines.wtf">
             <a className={styles.card} target="_blank">
               <div className={styles.cardHeader}>
@@ -77,7 +84,7 @@ const Home: NextPage = () => {
                 <p className={styles.cardDetails}>
                   Headlines is web game I created with a highschool friend where you guess 
                   the publication date of a New York Times headline.
-                  Built using <strong>JavaScript</strong>, <strong>Next.js</strong>, <strong>Typescript</strong>, and 
+                  Created using <strong>JavaScript</strong>, <strong>Next.js</strong>, <strong>Typescript</strong>, and 
                   the <strong>New York Times API</strong>. 
                 </p>
               </div>
@@ -112,7 +119,7 @@ const Home: NextPage = () => {
               </div>
             </a>
           </Link>
-
+          
           {/* <a className={styles.card} target="_blank">
             <div className={styles.cardHeader}>
               <h2 className={styles.projectName}>Coming soon...</h2>

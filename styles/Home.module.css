@@ -144,7 +144,7 @@
 
   background-size: 300%;
   animation: flow 1s ease-in-out infinite;
-  background: linear-gradient(-60deg, #ffadad, rgb(255, 187, 187), #fababa, #ff9999, #ffcaca);
+  background: linear-gradient(-60deg, #adfcff, rgb(187, 222, 255), #baddfa, #99daff, #caf3ff);
   /* -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; */
@@ -187,24 +187,25 @@
   border-top-right-radius: 20px;
   flex: 1;
   display: flex;
+  /* padding: 10px; */
 }
 
 .cardBox {
   display: flex;
   flex: 1;
-  padding-right: 5px;
-  padding-left: 5px;
+  /* padding-right: 5px;
+  padding-left: 5px; */
   justify-content: bottom;
 }
 
 .cardDetails {
   padding: 15px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.699);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   font-size: 18px;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: -5px;
   min-width: 100%;
 }
 
@@ -218,7 +219,7 @@
 .social {
   height: 50px;
   width: 50px;
-  background-color: lightgrey;
+  background-color: rgb(224, 224, 224);
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
   display: flex;
