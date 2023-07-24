@@ -84,9 +84,6 @@ const Home: NextPage = () => {
               </div>
               <div className={styles.cardBox}>
                 <p className={styles.cardDetails}>
-                  Headlines is web game I created with a highschool friend where you guess 
-                  the publication date of a New York Times headline.
-                  Created using <strong>JavaScript</strong>, <strong>Next.js</strong>, <strong>Typescript</strong>, and 
                   Headlines is web game where you guess 
                   the publication date of New York Times headlines to test just how well read you are.
                   Built using <strong>JavaScript</strong>, <strong>Next.js</strong>, <strong>Typescript</strong>, and 
