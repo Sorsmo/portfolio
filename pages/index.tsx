@@ -100,7 +100,7 @@ const Home: NextPage = () => {
           <Link href="https://fourhead.vercel.app/">
             <a className={styles.card} target="_blank">
               <div className={styles.cardHeader}>
-                <h2 className={styles.projectName}>Headlines</h2>
+                <h2 className={styles.projectName}>Fourheads</h2>
                 <Image className={styles.cardImage} src="/headlines2.png" alt="Headlines" width={300} height={200} />
               </div>
               <div className={styles.cardBox}>
