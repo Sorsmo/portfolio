@@ -31,11 +31,6 @@ const Home: NextPage = () => {
               <i className="fa fa-github"></i>
             </a>
           </Link>
-          {/* <Link href="https://www.instagram.com/ian_sornson/">
-            <a className={styles.social} target="_blank">
-              <i className="fa-brands fa-instagram"></i>
-            </a>
-          </Link> */}
         </div>
       </main>
       <div className={styles.divider} id='about'></div>
@@ -43,19 +38,16 @@ const Home: NextPage = () => {
         <h1 className={styles.header}>About Me</h1>
         <p className={styles.details}>
           I&apos;m Ian, a Sophomore at the University of Illinois at Urbana-Champaign
-          majoring in Computer Science. I am passionate about <strong>artificial intelligence</strong> and <strong>machine learning</strong>, 
-          <strong> computer vision</strong>, and <strong>autonomous robots</strong>. 
+          pursuing a B.S. in Computer Science with an expected graduation date of May 2025. I am currently seeking a Summer 2024 software engineering internship.
+          I am passionate about <strong>quantitative finance</strong>, <strong>artificial intelligence</strong>, 
+          <strong>machine learning</strong>, <strong> computer vision</strong>, and <strong>autonomous robots</strong>. 
           <br/>
           <br/>
-          Throughout highschool I particpated in a robotics competition called FIRST Tech Challenge.
-          The autonomous portion of the competition was always the coolest part as I got to see teams 
-          utilize concepts like dead wheel odometry to navigate the field programmatically. Ever since I 
-          have hoped to work on similar projects involving autonomous robots.
-          <br />
-          <br />
-          Currently I am exploring my interests through passion projects and coursework. I am also a Software Engineer 
-          at the Gies Disruption Lab at UIUC. This past semester I worked with Yield Protocol, a blockchain startup to
-          develop a Web3 based chatbot to explore the possibility of chatbots being substitute search engines. 
+          Currently, I am working at Cognautica, a startup developing automatic grading solutions for a learning management system using computer vision and natural language processing. 
+          I am working closely with OpenAI&apos;s GPT-4 to accurately grade student exam responses across many subjects. 
+          Previously, I was a Technical Lead for the Disruption Lab at Gies, an incubator where students work with entrepreneurs and researchers to solve real industry problems, 
+          heading the development of a blockchain based access system to protect sensitive State of Illinois personal identifiable information and HIPAA data utilizing NFTs, 
+          smart contracts, and AWS.
         </p>
       </section>
 
@@ -63,6 +55,34 @@ const Home: NextPage = () => {
       <section className={styles.section}>
         <h1 className={styles.header}>Projects</h1>
         <div className={styles.grid}>
+          {/* <Link href=""> */}
+            <a className={styles.card} target="_blank">
+              <div className={styles.cardHeader}>
+                <h2 className={styles.projectName}>Algorithmic Trading Bot</h2>
+                <Image className={styles.cardImage} src="/trading.jpg" alt="port" width={300} height={200} />
+              </div>
+              <div className={styles.cardBox}>
+                <p className={styles.cardDetails}>
+                  Coming soon!
+                </p>
+              </div>
+            </a>
+          {/* </Link> */}
+
+          <Link href="https://github.com/Sorsmo/gtav-neural-net">
+            <a className={styles.card} target="_blank">
+              <div className={styles.cardHeader}>
+                <h2 className={styles.projectName}>Self-Driving Car in Grand Theft Auto V</h2>
+                <Image className={styles.cardImage} src="/gtav.jpg" alt="port" width={300} height={200} />
+              </div>
+              <div className={styles.cardBox}>
+                <p className={styles.cardDetails}>
+                  A self driving car in GTAV trained with a convolution neural network using <strong>Tensorflow</strong>, <strong>OpenCV</strong>, and <strong>Python</strong>.
+                </p>
+              </div>
+            </a>
+          </Link>
+
           <Link href="https://github.com/Sorsmo/chess-engine">
             <a className={styles.card} target="_blank">
               <div className={styles.cardHeader}>
@@ -71,12 +91,13 @@ const Home: NextPage = () => {
               </div>
               <div className={styles.cardBox}>
                 <p className={styles.cardDetails}>
-                  A (work in progress) chess engine integrated with the <strong>LiChess API</strong> for online play developed using <strong>Python</strong>.
+                  A chess engine integrated with the <strong>LiChess API</strong> for online play. Developed using <strong>Python</strong>.
                 </p>
               </div>
             </a>
           </Link> 
-          <Link href="https://headlines.wtf">
+
+          <Link href="https://fourhead.vercel.app/">
             <a className={styles.card} target="_blank">
               <div className={styles.cardHeader}>
                 <h2 className={styles.projectName}>Headlines</h2>
@@ -84,17 +105,14 @@ const Home: NextPage = () => {
               </div>
               <div className={styles.cardBox}>
                 <p className={styles.cardDetails}>
-                  Headlines is web game I created with a highschool friend where you guess 
-                  the publication date of a New York Times headline.
-                  Created using <strong>JavaScript</strong>, <strong>Next.js</strong>, <strong>Typescript</strong>, and 
-                  Headlines is web game where you guess 
-                  the publication date of New York Times headlines to test just how well read you are.
+                  Fourheads is a collection of web games that test your vocabulary and knowledge of the world. 
                   Built using <strong>JavaScript</strong>, <strong>Next.js</strong>, <strong>Typescript</strong>, and 
                   the <strong>New York Times API</strong>. 
                 </p>
               </div>
             </a>
           </Link>
+
           <Link href="https://ambermusic.netlify.app">
             <a className={styles.card} target="_blank">
               <div className={styles.cardHeader}>
@@ -110,6 +128,7 @@ const Home: NextPage = () => {
               </div>
             </a>
           </Link>
+
           <Link href="https://iansornson.vercel.app">
             <a className={styles.card} target="_blank">
               <div className={styles.cardHeader}>
