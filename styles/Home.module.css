@@ -23,7 +23,7 @@
   align-items: center;
   position: absolute;
   width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  /* border-top: 1px solid rgba(0, 0, 0, 0.6); */
 }
 
 .title {
@@ -113,6 +113,11 @@
   padding-bottom: 20px;
   padding-left: 20px;
 }
+
+.details {
+  padding-left: 30px;
+}
+
 
 .uiuc {
   background-size: 300%;

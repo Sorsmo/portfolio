@@ -14,60 +14,41 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         {/* <script src="https://kit.fontawesome.com/0d174862ad.js" crossOrigin="anonymous"></script> */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="\pfp.jpg" />
       </Head>
-      <NavBar/>
+      {/* <NavBar/> */}
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Ian Sornson
+          (George) Ian Sornson
         </h1>
         <p className={styles.description}>
-          Computer Science student at the <span className={styles.uiuc}>University of 
-          Illinois at Urbana-Champaign</span>.
+          <a href="https://www.linkedin.com/in/ian-sornson">LinkedIn</a> | <a href="https://github.com/Sorsmo">Github</a>
         </p>
-        <div className={styles.socials}>
-          <Link href="https://github.com/Sorsmo">
-            <a className={styles.social} target="_blank">
-              <i className="fa fa-github"></i>
-            </a>
-          </Link>
-        </div>
       </main>
-      <div className={styles.divider} id='about'></div>
+      {/* <div className={styles.divider} id='about'></div> */}
       <section className={styles.section}>
         <h1 className={styles.header}>About Me</h1>
-        <p className={styles.details}>
-          I&apos;m Ian, a Sophomore at the University of Illinois at Urbana-Champaign
-          pursuing a B.S. in Computer Science with an expected graduation date of May 2025. I am currently seeking a Summer 2024 software engineering internship.
-          I am passionate about <strong>quantitative finance</strong>, <strong>artificial intelligence</strong>, 
-          <strong>machine learning</strong>, <strong> computer vision</strong>, and <strong>autonomous robots</strong>. 
-          <br/>
-          <br/>
-          Currently, I am working at Cognautica, a startup developing automatic grading solutions for a learning management system using computer vision and natural language processing. 
-          I am working closely with OpenAI&apos;s GPT-4 to accurately grade student exam responses across many subjects. 
-          Previously, I was a Technical Lead for the Disruption Lab at Gies, an incubator where students work with entrepreneurs and researchers to solve real industry problems, 
-          heading the development of a blockchain based access system to protect sensitive State of Illinois personal identifiable information and HIPAA data utilizing NFTs, 
-          smart contracts, and AWS.
-        </p>
+        <ul className={styles.details}>
+          <li>BS/MCS in Computer Science at UIUC, expected graduation May 2026</li>
+          <li>Passionate about <strong>quant finance</strong>, <strong>machine learning</strong>, and <strong>robotics</strong></li>
+          <li>Chess, ice hockey, poker, video games, kpop/alternative music</li>
+        </ul>
+      </section>
+      
+      <section className={styles.section}>
+        <h1 className={styles.header}>Experience</h1>
+        <ul className={styles.details}>
+          <li><strong>IMC Trading</strong>: Software Engineer Intern (Jun 2025 - Aug 2025)</li>
+          <li><strong>Capital One</strong>: Machine Learning Engineer Intern (Sep 2024 - Mar 2025)</li>
+          <li><strong>Gallagher</strong>: Software Engineer Intern (Jun 2024 - Aug 2024)</li>
+        </ul>
       </section>
 
-      <div className={styles.divider} id='projects'></div>
+
+      {/* <div className={styles.divider} id='projects'></div>
       <section className={styles.section}>
         <h1 className={styles.header}>Projects</h1>
         <div className={styles.grid}>
-          {/* <Link href=""> */}
-            <a className={styles.card} target="_blank">
-              <div className={styles.cardHeader}>
-                <h2 className={styles.projectName}>Algorithmic Trading Bot</h2>
-                <Image className={styles.cardImage} src="/trading.jpg" alt="port" width={300} height={200} />
-              </div>
-              <div className={styles.cardBox}>
-                <p className={styles.cardDetails}>
-                  Coming soon!
-                </p>
-              </div>
-            </a>
-          {/* </Link> */}
 
           <Link href="https://github.com/Sorsmo/gtav-neural-net">
             <a className={styles.card} target="_blank">
@@ -128,23 +109,8 @@ const Home: NextPage = () => {
               </div>
             </a>
           </Link>
-
-          <Link href="https://iansornson.vercel.app">
-            <a className={styles.card} target="_blank">
-              <div className={styles.cardHeader}>
-                <h2 className={styles.projectName}>My Portfolio</h2>
-                <Image className={styles.cardImage} src="/port2.png" alt="port" width={300} height={200} />
-              </div>
-              <div className={styles.cardBox}>
-                <p className={styles.cardDetails}>
-                  I mean it counts doesn&apos;t it? Built using <strong>JavaScript</strong>,  
-                  {" "}<strong>Next.js</strong>, and <strong>Typescript</strong>.
-                </p>
-              </div>
-            </a>
-          </Link>
         </div>
-      </section>
+      </section> */}
 
       {/* <div className={styles.divider} id="contact"></div>
       <section className={styles.section}>
@@ -152,13 +118,13 @@ const Home: NextPage = () => {
         <p className={styles.details}>
         </p>
       </section> */}
-      <footer>
+      {/* <footer> */}
         <span className={styles.footer}>
           <a href='mailto:iansornson55@gmail.com'>
-            Email me! (iansornson55@gmail.com)
+            iansornson55@gmail.com
           </a>
         </span>
-      </footer>
+      {/* </footer> */}
     </div>
   )
 }
